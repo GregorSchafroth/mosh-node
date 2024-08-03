@@ -1,3 +1,4 @@
+let x =;
 let url = 'http://mylogger.io/log';
 
 const log = (message) => {
@@ -5,4 +6,4 @@ const log = (message) => {
   console.log(message);
 }
 
-export { log };
+module.exports = log;
